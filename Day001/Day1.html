@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Day 1 of 100DaysOfDevOps</title>
+</head>
+
+<body>
+
+  <h1>Day 1 with KodeKloud</h1>
+
+  <p>
+    <h2>📅 Day 1 Tasks</h2>
+  <ul>
+    <li><strong>Task 1:</strong> Created a SSH key Pair and Vm on Aws.</li>
+    <li><strong> Task 2:</strong> Created a Linux user with a non-interactive shell on firms linux prod. server ⏳</li>
+    <li><strong> Task 3:</strong> Created SSH Key Pair for Azure Virtual Machine⏳</li>
+    <li><strong>Task 4:</strong> Creation of Custom Apache User for proper security, 
+      also Created group added a user for specific assignment on 3 servers</li>
+    <li><strong> Task 5:</strong> Set Up Git Repository on Storage Server ⏳</li>
+  </ul>
+
+    
+  </p>
+
+  <h2>🛠 What I Did</h2>
+  <ol>
+    <li>Connected to Aws and Azure Console to create resouces and key pair</li>
+    <li>Connected to different servers using SSH</li>
+    <li>Created a new Linux group and user</li>
+    <li>Assigned a non-interactive shell then Verified the user configuration</li>
+    <li>Created a Git bare repository on a storage server </li>
+    
+  </ol>
+
+  <h2>💻 Commands Used</h2>
+  <pre>
+sudo groupadd -f nautilus_sftp_users
+sudo passwd user
+sudo yum update -y && sudo yum install -y git
+git --version
+sudo git init --bare /opt/--.git
+ls -ld /opt/--.git
+sudo useradd -m -s /bin/false user
+id user
+grep user /etc/passwd
+sudo adduser --system --no-create-home --group webapp
+sudo chown -R webapp:webapp /var/www/myapp
+sudo chmod -R
+ps aux | grep apache
+
+  </pre>
+
+  <h2>🖼 Screenshots</h2>
+
+  <p> Task Completion 1</p>
+  <img src="user-verified.png" alt="Task Completed" width="600">
+
+  <p> Task Completion 2</p>
+  <img src=" Screenshot 2026-01-06 055929.png" alt="Task Completed" width="600">
+
+
+  <h2>📘 What I Learned</h2>
+  <ul>
+    <li>Difference between interactive and non-interactive shells</li>
+    <li>How <code>/bin/false</code> prevents user login</li>
+    <li>Basic Linux user management</li>
+  </ul>
+
+  <h2>🚧 Challenges</h2>
+  <p>
+    Initially forgot the <code>-s</code> flag, which allowed login.
+    Fixed it by recreating the user every other task was just a stepping stone
+    i mastered them already.
+  </p>
+
+  <h2>✅ Status</h2>
+  <p>Day 1 completed successfully 🎉</p>
+
+</body>
+</html>
