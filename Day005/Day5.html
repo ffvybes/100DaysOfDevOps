@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Day 5 of 100DaysOfDevOps</title>
+</head>
+
+<body>
+
+  <h1>Day 5 with KodeKloud</h1>
+
+  <p>
+    <h2>📅 Day 5 Tasks</h2>
+  <ul>
+    <li><strong>Task 1:</strong> Created a GP3 Volume on Aws.</li>
+    <li><strong> Task 2:</strong> Created a virtual Network (IPv4) in Azure ⏳</li>
+    <li><strong> Task 3:</strong> SELinix installation and configuration for  security purpose</li>
+    <li><strong>Task 4:</strong> Created temporary User Setup with Expiry </li>
+    <li><strong> Task 5:</strong> Set Up Git Repository on Storage Server ⏳</li>
+  </ul>
+
+    
+</p>
+
+  <h2>🛠 What I Did</h2>
+  <ol>
+    <li>Connected to Aws and Azure Console to create resouces and key pair</li>
+    <li>Connected to different servers using SSH</li>
+    <li>Created a new Linux group and user</li>
+    <li>Assigned a non-interactive shell then Verified the user configuration</li>
+    <li>Created a Git bare repository on a storage server </li>
+    
+  </ol>
+
+  <h2>💻 Commands Used</h2>
+  <pre>
+sudo groupadd -f nautilus_sftp_users
+sudo passwd user
+sudo yum update -y && sudo yum install -y git
+git --version
+sudo git init --bare /opt/--.git
+ls -ld /opt/--.git
+sudo useradd -m -s /bin/false user
+id user
+grep user /etc/passwd
+sudo adduser --system --no-create-home --group webapp
+sudo chown -R webapp:webapp /var/www/myapp
+sudo chmod -R
+ps aux | grep apache
+
+  </pre>
+
+  <h2>🖼 Screenshots</h2>
+
+
+  <h2>📘 What I Learned</h2>
+  
+
+  <h2>🚧 Challenges</h2>
+  <p>
+   
+  </p>
+
+  <h2>✅ Status</h2>
+  <p>Day 5 completed successfully 🎉</p>
+
+</body>
+</html>
