@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Day 13 of 100DaysOfDevOps</title>
+</head>
+
+<body>
+
+  <h1>Day 13 with KodeKloud</h1>
+
+  <p>
+    <h2>📅 Day 13 Tasks</h2>
+  <ul>
+    <li><strong>Task 1:</strong> Create AMI from EC2 Instance on Aws.</li>
+    <li><strong> Task 2:</strong> SSH into an Azure Virtual Machine ⏳</li>
+    <li><strong> Task 3:</strong> IPtables Installation And Configuration </li>
+    </ul>
+
+</p>
+
+  <h2>🛠 What I Did</h2>
+  <ol>
+    <li>Connected to Aws and Azure Console to configure resouces </li>
+    <li> Change permission on app server </li>
+    </ol>
+
+  <h2>💻 Commands Used</h2>
+  <pre>
+        ssh -T azureuser@ipaddress
+        scp azureuser@ipaddress 
+     sudo chmod 750 /var/lib/mysql
+
+  </pre>
+ <h2>🚧 Challenges</h2>
+  <p>
+
+    Fixed it by recreating the user every other task was just a stepping stone
+3 completed successfully 🎉</p>
+
+</body>
+</html>
