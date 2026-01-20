@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Day 14 of 100DaysOfDevOps</title>
+</head>
+
+<body>
+
+  <h1>Day 14 with KodeKloud</h1>
+
+  <p>
+    <h2>📅 Day 14 Tasks</h2>
+  <ul>
+    <li><strong>Task 1:</strong> Terminate an EC2 Instance on Aws.</li>
+    <li><strong> Task 2:</strong> Create and Attach Managed Disks in Azure ⏳</li>
+    <li><strong> Task 3:</strong> Linux Process Troubleshooting </li>
+    </ul>
+  </p>
+
+  <h2>🛠 What I Did</h2>
+  <ol>
+    <li>Connected to Aws and Azure Console to create resouces </li>
+    <li> Change permission on app server </li>
+	 <li> login on Azure Cli </li>
+         <li> Installation of Iptable </li>
+    </ol>
+  <h2>💻 Commands Used </h2>
+  <pre>
+       ssh user@ipaddress
+       az login
+       az group list --query "[].name" --output table
+	systemctl enable iptables
+	iptables -A INPUT -p tcp -s stlb01 --dport 8083 -j ACCEPT
+
+  </pre>
+ <h2>🚧 Challenges</h2>
+  <p>
+	Editing the iptables to allow and drop ports
+
+  </p>
+
+  <h2>✅ Status</h2>
+  <p>Day 14 completed successfully 🎉</p>
+
+</body>
+</html>
